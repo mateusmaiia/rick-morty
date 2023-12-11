@@ -5,6 +5,7 @@ import { Filters } from "./components/Filters";
 import { Cards } from "./components/Cards";
 import { useState, useEffect } from "react";
 import { Pagination } from "./components/Pagination/pagination";
+import { Search } from "./components/Searchs/searchs";
 
 
 function App() {  
@@ -25,6 +26,8 @@ function App() {
   return (
       <div>
         <h1 className="text-center ubuntu my-4">Rick & Morty <span className="text-primary">Wiki</span></h1>
+
+        <Search />
 
         <div className="container">
           <div className="row">
