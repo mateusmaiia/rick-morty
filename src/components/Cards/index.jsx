@@ -3,7 +3,7 @@ import styles from "./cards.module.scss"
 
 export function Cards({results}){
     let display;
-    console.log(results)
+    // console.log(results)
     if(results){
         display = results.map((result) => {
             let {id, name, image, location, status} = result;
@@ -12,7 +12,7 @@ export function Cards({results}){
                     <div className={`${styles.cards}`}>
                         <img src={image} alt="" className={`img-fluid ${styles.img}`} />
                         <div className="content" style={{padding: "10px"}}>
-                            <div className="fs-4 f2-bold mb-4">{name}</div>
+                            <div className="fs-4 f2-bold mb-4">{name}</div>f
                             <div className="">
                                 <div className="fs-6">Last location</div>
                                 <div className="fs-5">{location.name}</div>

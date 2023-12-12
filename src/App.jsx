@@ -26,9 +26,7 @@ function App() {
   return (
       <div>
         <h1 className="text-center ubuntu my-4">Rick & Morty <span className="text-primary">Wiki</span></h1>
-
         <Search />
-
         <div className="container">
           <div className="row">
             <div className="col-3">
